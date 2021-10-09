@@ -1,0 +1,51 @@
+TASK 1.1
+---------------------------------------------------------------------------------------------------------------------
+Table Customer and bank details:
+Attributes: Customer_id,age,job,marital, education,default,housing loan,Region_Code, State_Code, City_Code
+
+Table: Region Code Master
+Attributes: Region_Name, Region_Code
+
+Table: Customer Social Eco data:
+Attributes: Customer_id, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed
+
+Table: State_Master
+Arrtibutes: State_Code, State_Name, Region_Code
+
+Table Customer Response Data
+Attributes: Customer_id,y/no
+
+Table Customer_Postal_Code
+Attributes: customer_id, Postal_Code
+
+Table Customer_campaign_details
+Attributes: Customer_id, contact,month,day_of_week,duration,campaign,pdays,previous,poutcome
+
+Table City_Master
+Attributes: City_Code, City_Name, State_Code
+
+
+Task 1.1
+
+1. Customer Response Data <----> Customer_campaign_details
+2. Customer Response Data <----> Customer_campaign_details
+3. Customer Response Data <----> Customer_campaign_details
+4. Customer Response Data <----> Customer and bank details
+5. Customer Response Data <----> Social Economic data
+6. Customer and bank details<----->City Master <-----> State Master <-----> Region Code Master <----->(NOTE: How to join marketing details with the demographic dataset i.e. master files)
+
+NOTE: Need explaination on Socio-economic attributes table(Customer Social Eco data)
+NOTE: Can we use SQL to perform queries here?? 
+---------------------------------------------------------------------------------------------------------------------
+TASK 1.2
+---------------------------------------------------------------------------------------------------------------------
+
+Stage 1: ER Pictorial diagram for task 1.1
+Stage 2: Easy peasy(lemon squeezy) SQL commands!
+
+---------------------------------------------------------------------------------------------------------------------
+TASK 1.3
+---------------------------------------------------------------------------------------------------------------------
+
+Graphs, histograms, box plots
+NOTE: Need elaboration on this.
